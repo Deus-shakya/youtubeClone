@@ -156,7 +156,9 @@ body {
 }
 .content-img {
   height: 197px;
-  background-color: aliceblue;
+  background-image: url(img/IMG_7803.jpg);
+  background-size: cover;
+  
   border: none;
   border-radius: 20px;
   display: flex;
@@ -187,7 +189,10 @@ body {
 
 }
 .content-img2-inner{
-  background-color: white;
+  background-image: url(img/dyno.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 36px;
   width: 36px;
   border-radius: 50%;
